@@ -1,0 +1,491 @@
+/* 
+En este archivo se pueden encontrar los codigos locales almacenados para hacer uso de estos con el asistente. 
+La sintaxis utilizada para el almacenamiento local es la siguiente: 
+[Numero de lineas del bloque de codigo]
+------------------------------------------------------------------
+Identificador
+Bloque de codigo
+------------------------------------------------------------------
+ */
+SINTAXIS DE FOR
+[12]
+------------------------------------------------------------------
+
+for(int i = valor inicial; i <= valor final; i = i + paso)
+{
+        ....
+        ....
+    Bloque de Instrucciones....
+        ....
+        ....
+}
+
+------------------------------------------------------------------
+SINTAXIS DE FOR JAVA
+[14]
+------------------------------------------------------------------
+
+for(int i = valor inicial; i <= valor final; i = i + paso)
+{
+        ....
+        ....
+    Bloque de Instrucciones....
+        ....
+        ....
+a
+}
+
+
+-----------------------------------------------------------------
+SINTAXIS DE FOR JAVA 2
+[11]
+------------------------------------------------------------------
+
+for(int i=500;i<=1000;i+=2)
+{//Notemos que escribir i+=2 es similar a escribir i = i + 2
+    System.out.println(i);
+as
+asas
+}
+
+
+------------------------------------------------------------------
+CONCEPTO DE CLASE
+[4]
+------------------------------------------------------------------
+En informï¿½tica, una clase es una plantilla para el objetivo de la creaciï¿½n de objetos de datos segï¿½n un modelo predefinido. Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje. Cada clase es un modelo que define un conjunto de variables y mï¿½todos apropiados para operar con dichos datos. Cada objeto creado a partir de la clase se denomina instancia de la clase.
+
+------------------------------------------------------------------
+CODIGO 1
+[9]
+------------------------------------------------------------------
+DASKJDHASAF
+
+FDSA
+FASD
+F
+ADSF
+SADF
+----------------------------------------------------------------
+IMPRESION
+[24]
+------------------------------------------------------------------
+
+public class Salida
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hola usuario bienvenido");
+        System.out.println("A continuaciï¿½n se muestra una cuenta regresiva");
+
+        for (int i = 10; i >= 1;  i--)
+        {
+            System.out.println(i);//Se muestra cada valor de i (de 10 al 1)
+        }
+
+        System.out.println("Ahora, otra cuenta regresiva");
+
+        for (int i = 10; i >= 1;  i--)
+        {
+            System.out.print(i);//Se muestra cada valor de i (de 1 a 10)
+        }
+    }
+}
+
+------------------------------------------------------------------
+QUICKSORT PROGRAMACION
+[160]
+------------------------------------------------------------------
+/*   Codigos de la Web   */
+El ordenamiento rápido (quicksort en inglés) es un algoritmo de ordenacion creado por el científico británico en computación C. A. R. Hoare.
+
+/*   ...     */
+El algoritmo trabaja de la siguiente forma:
+
+/*   ...     */
+Como se puede suponer, la eficiencia del algoritmo depende de la posición en la que termine el pivote elegido.
+
+/*   ...     */
+No es extraño, pues, que la mayoría de optimizaciones que se aplican al algoritmo se centren en la elección del pivote.
+
+/*   ...     */
+Supongamos que el número de elementos a ordenar es una potencia de dos, es decir, 
+
+
+
+n
+=
+
+2
+
+k
+
+
+
+
+{\displaystyle n=2^{k}}
+
+para algún natural 
+
+
+
+k
+
+
+{\displaystyle k}
+
+. Inmediatamente 
+
+
+
+k
+=
+l
+o
+
+g
+
+2
+
+
+(
+n
+)
+
+
+{\displaystyle k=log_{2}(n)}
+
+, donde k es el número de divisiones que realizará el algoritmo.
+
+/*   ...     */
+En la primera fase del algoritmo habrá n comparaciones. En la segunda fase el algoritmo instanciará dos sublistas de tamaño aproximadamente n/2. El número total de comparaciones de estas dos sublistas es: 2(n/2) = n. En la tercera fase el algoritmo procesará 4 sublistas más, por tanto el número total de comparaciones en esta fase es 4(n/4) = n.
+
+/*   ...     */
+En conclusión, el número total de comparaciones que hace el algoritmo es:
+
+/*   ...     */
+
+
+
+
+n
++
+n
++
+n
++
+.
+.
+.
+.
+.
++
+n
+=
+k
+n
+
+
+{\displaystyle n+n+n+.....+n=kn}
+
+, donde 
+
+
+
+k
+=
+l
+o
+
+g
+
+2
+
+
+(
+n
+)
+
+
+{\displaystyle k=log_{2}(n)}
+
+, por tanto el Orden de Complejidad del algoritmo en el mejor de los casos es 
+
+
+
+O
+(
+n
+.
+l
+o
+
+g
+
+2
+
+
+n
+)
+
+
+{\displaystyle O(n.log_{2}n)}
+
+.
+
+/*   ...     */
+El algoritmo básico del método Quicksort consiste en tomar cualquier elemento de la lista al cual denominaremos como pivote, dependiendo de la partición en que se elija, el algoritmo será más o menos eficiente.
+
+/*   ...     */
+Una idea preliminar para ubicar el pivote, en su posición final sería contar la cantidad de elementos menores que él, y colocarlo un lugar más arriba, moviendo luego todos esos elementos menores que él a su izquierda, para que pueda aplicarse la recursividad.
+
+/*   ...     */
+Existe, no obstante, un procedimiento mucho más efectivo. Se utilizan dos índices: i, al que llamaremos índice izquierdo, y j, al que llamaremos índice derecho. El algoritmo es el siguiente: 
+
+/*   ...     */
+Como se mencionó anteriormente, el algoritmo quicksort ofrece un orden de ejecución O(n²) para ciertas permutaciones "críticas" de los elementos de la lista, que siempre surgen cuando se elige el pivote «a ciegas». La permutación concreta depende del pivote elegido, pero suele corresponder a secuencias ordenadas. Se tiene que la probabilidad de encontrarse con una de estas secuencias es inversamente proporcional a su tamaño.
+
+/*   ...     */
+Nota: 
+Los tres parámetros de la llamada inicial a Quicksort serán array[0], 0, numero_elementos -1, es decir, si es un array de 6 elementos array, 0, 5
+
+/*   ...     */
+En el siguiente ejemplo se marcan el pivote y los índices i y j con las letras p, i y j respectivamente.
+
+/*   ...     */
+
+------------------------------------------------------------------
+BUSCA CICLO FOR JAVA
+[93]
+------------------------------------------------------------------
+/*   Codigos de la Web   */
+
+for(int i = valor inicial; i = valor final; i = i + paso) 
+{ 
+  .... 
+  .... 
+Bloque de Instrucciones.... 
+  .... 
+  .... 
+} 
+
+/*   ...     */
+
+for(int i=500;i=1000;i+=2) 
+{//Notemos que escribir i+=2 es similar a escribir i = i + 2 
+System.out.println(i); 
+} 
+
+/*   ...     */
+
+public class CicloFor 
+{ 
+public static void main(String args[]) 
+{ 
+  for(int i=500;i=1000;i+=2) 
+  { 
+    System.out.println(i); 
+  } 
+} 
+} 
+
+/*   ...     */
+
+for(int i = 100; i > 0; i--) 
+{//Notemos que escribir i-- es lo mismo a escribir i = i - 1 
+System.out.println(i); 
+} 
+
+/*   ...     */
+
+public class CicloInverso 
+{ 
+public static void main(String args[]) 
+{ 
+  for(int i = 100; i > 0; i--) 
+  { 
+    System.out.println(i); 
+  } 
+} 
+} 
+
+/*   ...     */
+
+int contador = 0; //Iniciamos el contador en cero 
+
+for(int i = 0; i = 10000; i++) 
+{//Notemos que escribir i++ es similar a escribir i = i + 1 
+if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+{ 
+  contador++; //Si es múltiplo aumentamos el contador en 1 
+} 
+//Si no es múltiplo no hacemos nada 
+} 
+
+//Mostramos el valor del contador 
+System.out.println(contador); 
+
+/*   ...     */
+
+public class Multiplos 
+{ 
+public static void main(String args[]) 
+{ 
+  int contador = 0; //Iniciamos el contador en cero 
+
+  for(int i = 0; i = 10000; i++) 
+  { 
+    if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+    { 
+      contador++; //Si es múltiplo aumentamos el contador en 1 
+    } 
+    //Si no es múltiplo no hacemos nada 
+  } 
+
+  //Mostramos el valor del contador 
+  System.out.println(contador); 
+} 
+} 
+
+/*   ...     */
+
+------------------------------------------------------------------
+QUE ES POLIMORFISMO PROGRAMACION
+[4]
+------------------------------------------------------------------
+En programación orientada a objetos, el polimorfismo se refiere a la propiedad por la que es posible sintácticamente iguales a objetos de tipos distintos. El único requisito que deben cumplir los objetos que se utilizan de manera polimórfica es saber responder al mensaje que se les envía.
+
+------------------------------------------------------------------
+SINTAXIS DEL CICLO FOR2 JAVA
+[93]
+------------------------------------------------------------------
+/*       Resumen General       */
+
+for(int i = valor inicial; i <= valor final; i = i + paso) 
+{ 
+       .... 
+       .... 
+    Bloque de Instrucciones.... 
+       .... 
+       .... 
+} 
+
+/*       ...          */
+
+for(int i=500;i<=1000;i+=2) 
+{//Notemos que escribir i+=2 es similar a escribir i = i + 2 
+    System.out.println(i); 
+} 
+
+/*       ...          */
+
+public class CicloFor 
+{ 
+    public static void main(String args[]) 
+    { 
+       for(int i=500;i<=1000;i+=2) 
+       { 
+            System.out.println(i); 
+       } 
+    } 
+} 
+
+/*       ...          */
+
+for(int i = 100; i > 0; i--) 
+{//Notemos que escribir i-- es lo mismo a escribir i = i - 1 
+    System.out.println(i); 
+} 
+
+/*       ...          */
+
+public class CicloInverso 
+{ 
+    public static void main(String args[]) 
+    { 
+       for(int i = 100; i > 0; i--) 
+       { 
+            System.out.println(i); 
+       } 
+    } 
+} 
+
+/*       ...          */
+
+int contador = 0; //Iniciamos el contador en cero 
+
+for(int i = 0; i <= 10000; i++) 
+{//Notemos que escribir i++ es similar a escribir i = i + 1 
+    if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+    { 
+       contador++; //Si es múltiplo aumentamos el contador en 1 
+    } 
+    //Si no es múltiplo no hacemos nada 
+} 
+
+//Mostramos el valor del contador 
+System.out.println(contador); 
+
+/*       ...          */
+
+public class Multiplos 
+{ 
+    public static void main(String args[]) 
+    { 
+       int contador = 0; //Iniciamos el contador en cero 
+
+       for(int i = 0; i <= 10000; i++) 
+       { 
+            if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+            { 
+                contador++; //Si es múltiplo aumentamos el contador en 1 
+            } 
+            //Si no es múltiplo no hacemos nada 
+       } 
+
+       //Mostramos el valor del contador 
+       System.out.println(contador); 
+    } 
+} 
+
+/*       ...          */
+
+------------------------------------------------------------------
+CICLO FOR JAVA
+[17]
+------------------------------------------------------------------
+
+int contador = 0; //Iniciamos el contador en cero 
+
+for(int i = 0; i <= 10000; i++) 
+{//Notemos que escribir i++ es similar a escribir i = i + 1 
+    if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+    { 
+       contador++; //Si es múltiplo aumentamos el contador en 1 
+    } 
+    //Si no es múltiplo no hacemos nada 
+} 
+
+//Mostramos el valor del contador 
+System.out.println(contador); 
+
+------------------------------------------------------------------
+CICLO FOR JAVA2
+[17]
+------------------------------------------------------------------
+
+int contador = 0; //Iniciamos el contador en cero 
+
+for(int i = 0; i <= 10000; i++) 
+{//Notemos que escribir i++ es similar a escribir i = i + 1 
+    if(i % 20 == 0) //Preguntamos si el residuo es 0 (es múltiplo de 20) 
+    { 
+       contador++; //Si es múltiplo aumentamos el contador en 1 
+    } 
+    //Si no es múltiplo no hacemos nada 
+} 
+
+//Mostramos el valor del contador 
+System.out.println(contador); 
+
+------------------------------------------------------------------
